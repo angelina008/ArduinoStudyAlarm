@@ -69,7 +69,7 @@ void loop() {
     digitalWrite(led1, HIGH);
     delay(250); 
     digitalWrite(led1, LOW);
-    //it reminds you that almost 1/3 of the time passed
+    //it reminds you that almost 2/3 of the time passed
     delay(17000);
      tone(buzz, 92, 300); 
     digitalWrite(led2, HIGH);
